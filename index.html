@@ -14,17 +14,18 @@
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
     ></script>
   </head>
-  <body>Dagik AR
-    <center></center>
+  <body>
+    <center>
+      海王星 Neptune
     <model-viewer
-      width: 800px;
-      height: 1200px;
+      width: 100%;
+      height: 1000px;
+      border: 1px solid black;
       src="./sphere.glb"
       ios-src="./sphere.usdz"
-      alt="A 3D model"
-      auto-rotate
+      alt="Neptune model"
+      camera-target="0 0 0"
       camera-controls
-      touch-action="pan-y"
       ar
     ></model-viewer>
     </center>
